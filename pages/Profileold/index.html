@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Elon Musk (@elonmusk) | Twitter </title>
+
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.min.css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="assets/img/iconfinder_twitter_294655.png" type="image/x-icon" sizes="128x128">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="user()">
+
+
+  <!----------------------------------------------------------- NAV-BAR Start---------------------------------------------------------->
+  <nav>
+    <div class="nav-bar">
+      <div>
+        <a href="../Home/index.html"> <img src="images/Logo%20Png.png"> </a>
+      </div>
+      <div class="search-bar" style="width: 500px;padding: 10px;">
+        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+      </div>
+      <div class="pages">
+        <a href="#">
+          <a href="../Home/index.html"><span>Home</span></a>
+        </a>
+        <a href="#">
+          <a href="../Videos/index.html"><span>Videos</span></a>
+        </a>
+        <a href="../Contact/index.html">
+          <span>Contact</span>
+        </a>
+        <a href="../Profile/index.html">
+          <img src="images/posts/user.jpg" style="border-radius: 50%;width: 50px;height:50px">
+        </a>
+      </div>
+    </div>
+
+  </nav>
+  <!----------------------------------------------------------- NAV-BAR End ---------------------------------------------------------->
+
+  <div class="main-container">
+
+    <div class="row profile-background" id="cover">
+      <div class="container">
+
+        <div class="avatar-container">
+          <div class="avatar" id="avatar">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar profile-stats">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+          </div>
+          <div class="col-6">
+            <ul>
+              <li class="profile-stats-item-active">
+                <a>
+                  <span class="profile-stats-item profile-stats-item-label">Tweets</span>
+                  <span class="profile-stats-item profile-stats-item-number" id="tweets"></span>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main-content">
+      <div class="row">
+        <div class="col profile-col">
+          <div class="profile-header">
+
+            <h3 class="profile-fullname" id="profile-fullname">
+
+              <img src="assets/img/tick.png" height="20" width="20">
+            </h3>
+
+            <h2 class="profile-element"><a id="profile-element"></a></h2>
+            <h2 class="profile-element">
+              <i class="octicon octicon-calendar"></i>
+              Joined June 2009
+            </h2>
+
+          </div>
+        </div>
+
+        <div class="col-6">
+          <ol class="tweet-list" id="tweet-list">
+
+
+
+          </ol>
+
+        </div>
+        <div class="col right-col">
+          <div class="content-panel">
+            <div class="panel-header" id="info">
+              <p></p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+  </div>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>

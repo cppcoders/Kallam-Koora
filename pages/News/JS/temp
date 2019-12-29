@@ -1,0 +1,9 @@
+
+
+div class = "maindiv post col-lg-3" > < div > ' +
+'<a data-fancybox-type="iframe" class="fancyboxIframe" <img src="' + thumb + '" class="img-responsive thumbnail" ></a>' +
+    '</div>' +
+    '<div class="input-group col-lg-3">' +
+    '<h3 class="Vtitle"><a data-fancybox-type="iframe" class="fancyboxIframe" href="https://www.youtube.com/watch?v=' + vidId + '" target="_blank">' + videTitle + '</a></h3>' +
+    '</div><div  id="cTitle"><a href="https://www.youtube.com/channel/' + cID + '" target="_blank">' + channelTitle + '</a></div></div>' +
+    '<div class="clearfix"></div>

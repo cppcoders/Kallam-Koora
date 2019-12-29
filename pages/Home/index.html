@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalam Koora</title>
+    <meta name="CV" content="resume">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <!----------------------------------------------------------- NAV-BAR Start---------------------------------------------------------->
+    <nav>
+        <div class="nav-bar">
+            <div>
+                <a href="index.html"> <img src="images/Logo%20Png.png"> </a>
+            </div>
+            <div class="search-bar" style="width: 500px;padding: 10px;">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="pages">
+                <a href="#">
+                    <a href="../Home/index.html"><span>Home</span></a>
+                </a>
+                <a href="#">
+                    <a href="../Videos/index.html"><span>Videos</span></a>
+                </a>
+                <a href="../Contact/index.html">
+                    <span>Contact</span>
+                </a>
+                <a href="../Profile/index.html">
+                    <img src="images/posts/user.jpg" style="border-radius: 50%;width: 50px;height:50px">
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!----------------------------------------------------------- RECENT MATCHES ---------------------------------------------------------->
+    <div class="recent-matches">
+        <div class="day">
+            <span onclick="activeDay('Yesterday')" id="Yesterday">Yesterday</span>
+            <span onclick="activeDay('Today')" id="Today" class="active-day">Today</span>
+            <span onclick="activeDay('Tomorrow')" id="Tomorrow">Tomorrow</span>
+        </div>
+        <div class="day-matches row">
+            <div class="cursor col-lg-1" onclick="prev()">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+
+            <div class="Yesterday-matches col-lg-10 row" id="Yesterday-matches">
+
+                <div class="match Yesterday col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Alex.png" style="width: 60px">
+                        <p>Al Ethad Alsakandary</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Isma.png" style="width: 60px;">
+                        <p>Al Esmaily</p>
+                    </div>
+                </div>
+                <div class="match Yesterday col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Alex.png" style="width: 60px">
+                        <p>Al Ethad Alsakandary</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Isma.png" style="width: 60px;">
+                        <p>Al Esmaily</p>
+                    </div>
+                </div>
+                <div class="match Yesterday col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Alex.png" style="width: 60px">
+                        <p>Al Ethad Alsakandary</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Isma.png" style="width: 60px;">
+                        <p>Al Esmaily</p>
+                    </div>
+                </div>
+
+                <div class="match Yesterday disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Liverpool.png" style="width: 60px">
+                        <p>Liverpool</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Mancheester.png" style="width: 75px;">
+                        <p>Manchester</p>
+                    </div>
+                </div>
+                <div class="match Yesterday disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Liverpool.png" style="width: 60px">
+                        <p>Liverpool</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Mancheester.png" style="width: 75px;">
+                        <p>Manchester</p>
+                    </div>
+                </div>
+                <div class="match Yesterday disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Liverpool.png" style="width: 60px">
+                        <p>Liverpool</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>0</span>
+                        <p class="status" style="margin-top: 30px;">Done</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Mancheester.png" style="width: 75px;">
+                        <p>Manchester</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Today-matches col-lg-10 row" id="Today-matches">
+
+                <div class="match Today col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Ahly.png" style="width: 68px">
+                        <p>Ahly</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Zamalek.png" style="width: 50px;">
+                        <p>Zamalek</p>
+                    </div>
+                </div>
+                <div class="match Today col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Ahly.png" style="width: 68px">
+                        <p>Ahly</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Zamalek.png" style="width: 50px;">
+                        <p>Zamalek</p>
+                    </div>
+                </div>
+                <div class="match Today col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Ahly.png" style="width: 68px">
+                        <p>Ahly</p>
+                    </div>
+                    <div class="info">
+                        <p>Egyptain League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Zamalek.png" style="width: 50px;">
+                        <p>Zamalek</p>
+                    </div>
+                </div>
+                <div class="match Today disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Tottenham%20.png" style="width: 75px">
+                        <p>Tottenham</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>2</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Leicester%20.png" style="width: 75px;">
+                        <p>Leicester</p>
+                    </div>
+                </div>
+                <div class="match Today disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Tottenham%20.png" style="width: 75px">
+                        <p>Tottenham</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>2</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Leicester%20.png" style="width: 75px;">
+                        <p>Leicester</p>
+                    </div>
+                </div>
+                <div class="match Today disnone col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Tottenham%20.png" style="width: 75px">
+                        <p>Tottenham</p>
+                    </div>
+                    <div class="info">
+                        <p>English League</p>
+                        <span>2</span>
+                        <spna>-</spna>
+                        <span>2</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team1">
+                        <img src="images/Yesterday/Leicester%20.png" style="width: 75px;">
+                        <p>Leicester</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="Tomorrow-matches col-lg-10 row" id="Tomorrow-matches">
+
+                <div class="match Tomorrow col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Barca.png" style="width: 68px">
+                        <p>FC Barcelona</p>
+                    </div>
+                    <div class="info">
+                        <p>Spanish League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Madrid.png" style="width: 50px;">
+                        <p>Real Madrid</p>
+                    </div>
+                </div>
+                <div class="match Tomorrow col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Barca.png" style="width: 68px">
+                        <p>FC Barcelona</p>
+                    </div>
+                    <div class="info">
+                        <p>Spanish League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Madrid.png" style="width: 50px;">
+                        <p>Real Madrid</p>
+                    </div>
+                </div>
+                <div class="match Tomorrow col-lg-4">
+                    <div class="team1">
+                        <img src="images/Yesterday/Barca.png" style="width: 68px">
+                        <p>FC Barcelona</p>
+                    </div>
+                    <div class="info">
+                        <p>Spanish League</p>
+                        <span>-</span>
+                        <spna> </spna>
+                        <span>-</span>
+                        <p class="status" style="margin-top: 30px;">18:00</p>
+                    </div>
+                    <div class="team2">
+                        <img src="images/Yesterday/Madrid.png" style="width: 50px;">
+                        <p>Real Madrid</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="cursor col-lg-1" onclick="next()">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <!----------------------------------------------------------- RECENT MATCHES ---------------------------------------------------------->
+
+    <!----------------------------------------------------------- NewsFeed Start---------------------------------------------------------->
+    <div class="news-feed row">
+        <div class="trends col-lg-1">
+
+        </div>
+        <div class="posts col-lg-6" id="toappend">
+
+        </div>
+        <div class="news col-lg-3">
+            <h1><br></h1>
+            <ul class="timeline" id="trending">
+
+
+            </ul>
+        </div>
+        <div class="trends col-lg-1">
+
+        </div>
+    </div>
+    <!----------------------------------------------------------- NewsFeed Emd---------------------------------------------------------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #F2F2F2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+nav .nav-bar {
+    padding: 20px;
+    box-shadow: 0px 0px 16px -6px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div img {
+    width: 100px;
+    margin: 0px auto;
+}
+
+
+nav .nav-bar .pages {
+    padding: 10px 20px 0px 20px;
+}
+
+nav .nav-bar .pages span {
+    font-size: 1.5rem;
+    color: #2E383C;
+    font-family: 'Righteous', cursive;
+    margin: 15px 30px 15px 30px;
+
+}
+
+nav .nav-bar .pages span:hover {
+    border-bottom: 3px solid #0ECA22;
+}
+
+
+/* ====================================================================================================================================== */
+
+.search {
+    margin-top: 90px;
+    padding: 50px;
+}
+
+
+
+/* ====================================================================================================================================== */
+
+.buttons {
+    max-width: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+/* ====================================================================================================================================== */
+
+
+.post {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cont {
+    padding: 20px;
+    margin: 50px 10px 10px 10px;
+}
+
+.container {
+    background-color: white;
+}
+
+.posts .post .post-owner,
+.post-owner-info {
+    text-align: left;
+}
+
+.post-owner-img {
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    height: 70px;
+}
+
+.post-owner-info p {
+    color: #ADADAD;
+}
+
+.post-owner-info h4,
+h3,
+.post-owner h4 {
+    margin-top: 10px;
+}
+
+
+.wrapper {
+    width: 100%;
+}
+
+.reactions div span {
+    font-family: 'Righteous', cursive;
+
+}
+
+.reactions div {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.reactions div:hover {
+    color: #008FFF;
+}
+
+.like-color {
+    color: #008FFF;
+}

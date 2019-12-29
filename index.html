@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korabook</title>
+    <meta name="CV" content="resume">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <a href="index.html"><img src="images/Logo%20Png.png"> </a>
+        </div>
+    </nav>
+
+
+    <div class="login-form">
+
+        <form>
+            <h2 class="text-center">Log in</h2>
+            <br>
+            <br>
+            <div class="form-group">
+                <input type="text" class="form-controll" placeholder="Username" required="required" id="username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-controll" placeholder="Password" required="required" id="password">
+            </div>
+            <p id="wrong" class="dat">
+                *Wrong user data, Please Try Again
+            </p>
+            <br>
+            <div class="form-group">
+                <button type="button" class="btn btn-primary btn-block" onclick="login()">Log in</button>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-danger btn-block"><a href="pages/Registeration/index.html">Register</a></button>
+            </div>
+            <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                <a href="#" class="pull-right">Forgot Password?</a>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

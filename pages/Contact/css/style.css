@@ -1,0 +1,140 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #D4D4D4;
+
+    height: 850px;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, .19), 0 12px 15px 0 rgba(0, 0, 0, .24);
+    padding: 80px 80px;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    width: 400px;
+    flex-direction: column;
+    flex: none;
+    height: 80%;
+    width: 80%;
+    margin-top: 80px;
+
+}
+
+.form {
+    padding: 10px;
+
+
+}
+
+.Registeration-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.form-controll {
+
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.text-center {
+    color: #3B0F71;
+}
+
+.print {
+    margin: 30px 80px;
+    background-color: #4B1489;
+    width: 150px;
+}
+
+.call {
+    padding-left: 50px;
+    height: 500px;
+    widows: 50px;
+}
+
+/*------------------------*/
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+nav .nav-bar {
+    padding: 5px 40px;
+    box-shadow: 0px 0px 16px -6px #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div img {
+    width: 100px;
+    margin: 0px auto;
+}
+
+
+nav .nav-bar .pages {
+    padding: 10px 20px 0px 20px;
+}
+
+nav .nav-bar .pages span {
+    font-size: 1.5rem;
+    color: #2E383C;
+    font-family: 'Righteous', cursive;
+    margin: 15px 30px 15px 30px;
+
+}
+
+nav .nav-bar .pages span:hover {
+    border-bottom: 3px solid #0ECA22;
+}
+
+
+.social {
+
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.social i {
+    margin: 0 2px;
+    border-radius: 30%;
+}

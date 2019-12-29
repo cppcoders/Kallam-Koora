@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Korabook</title>
+    <meta name="CV" content="resume">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="user()">
+
+    <!----------------------------------------------------------- Navbar Start---------------------------------------------------------->
+    <nav>
+        <div class="nav-bar">
+            <div>
+                <a href="index.html"> <img src="images/Logo%20Png.png"> </a>
+            </div>
+            <div class="search-bar" style="width: 500px;padding: 10px;">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </div>
+            <div class="pages">
+                <a href="#">
+                    <a href="../Home/index.html"><span>Home</span></a>
+                </a>
+                <a href="#">
+                    <a href="index.html"><span>Videos</span></a>
+                </a>
+                <a href="#">
+                    <span>News</span>
+                </a>
+                <a href="#">
+                    <span>Setting</span>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!----------------------------------------------------------- Navbar End ---------------------------------------------------------->
+
+    <!----------------------------------------------------------- Search End ---------------------------------------------------------->
+
+
+    <div class="search">
+        <form class="form-inline md-form mr-auto mb-4" style="display: flex;justify-content: center;">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"
+                style="width: 600px;">
+            <button class="btn btn-success btn-rounded btn-sm my-0" type="submit">Search</button>
+        </form>
+    </div>
+    <div class="buttons">
+        <button class="btn btn-primary" style="width: 50%;margin-right: 20px;">Trends</button>
+        <button class="btn btn-danger" style="width: 50%;" onclick="user()">Users</button>
+
+    </div>
+
+    <!----------------------------------------------------------- Search End ---------------------------------------------------------->
+
+    <!----------------------------------------------------------- Content Start ---------------------------------------------------------->
+
+    <div class="row cont" id="cont">
+
+        <!--  <div class="col-sm-12 col-md-6 col-lg-4" style="padding: 10px;">   
+            <div class="container">     
+                <div class="post pv">   
+                    
+                    <div class="post-owner row">        
+                        <div class="post-owner-img col-3 col-md-2" >        
+
+                        </div>
+                        
+                    <div class="post-owner-info col-9 col-md-10">      
+                            <h4>User Name</h4>
+                            <p>24/12/2019 11:47 PM</p>
+                    </div>
+                        <h5>Barcelona vs Real Madrid</h5>
+                        <div class="wrapper row">
+                            <video class="col" controls style="padding: 0px 0px 0px 16px;">
+                                 <source src="video/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <hr/>
+                    <div class="reactions row">
+                        <div class="like-button col" onclick="like('post2')" id="post2">
+                            <i class="fas fa-thumbs-up"></i>
+                            <span>like</span>
+                        </div>
+                        <div class="comment-button col" onclick="comment('post2')" >
+                            <i class="fas fa-comment-alt"></i>
+                            <span>comment</span>
+                        </div>
+                        <div class="share-button col" onclick="share('post2')">
+                            <i class="fas fa-share"></i>
+                            <span>share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        -->
+
+    </div>
+    <!----------------------------------------------------------- Content End ---------------------------------------------------------->
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
